@@ -87,6 +87,14 @@ form .title + p {
   left: 10px;
 }
 
+.input-icon-eye {
+  content: url(./assets/eye.svg);
+  display: block;
+  position: absolute;
+  top: 17px;
+  right: 15px;
+}
+
 .input-field:nth-child(1):focus-within .input-icon-mail::before {
   content: url(./assets/mail-focus.svg);
   display: block;
